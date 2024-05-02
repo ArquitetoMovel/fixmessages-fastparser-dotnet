@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FixFastParser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc1b0530315039c01f945e97a75df98bfb88870c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06b878ed9c1c65b692f9a4d9f2607dac5627d633")]
 [assembly: System.Reflection.AssemblyProductAttribute("FixFastParser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FixFastParser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

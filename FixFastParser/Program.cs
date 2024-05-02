@@ -9,21 +9,26 @@ namespace FixFastParser
     public class FixParseBenchmark
     {
         private readonly FixParse _fixParse;
+        private readonly FixParse _fixParseFasterVersion;
         private readonly string _fixMessage;
 
         public FixParseBenchmark()
         {
-            var parser = new SliceParser(); // Replace with your actual implementation
-            _fixParse = new FixParse(parser);
+            _fixParse = new FixParse(new SplitParser());
+            _fixParseFasterVersion = new FixParse(new SliceParser());
             _fixMessage = File.ReadAllText("FixMessage.txt");
         }
 
         [Benchmark]
         public void ParseMessage()
         {
-            // read the content of #FixMessage.txt and create a variable
-            // with the content of the file
             _fixParse.ParseMessage(_fixMessage);
+        }
+
+        [Benchmark]
+        public void ParseMessageFaster()
+        {
+            _fixParseFasterVersion.ParseMessage(_fixMessage);
         }
     }
 
