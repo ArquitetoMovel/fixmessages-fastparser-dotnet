@@ -2,14 +2,13 @@
 
 public class FixParse
 {
-    private readonly IFixMessageParser _parser; 
+    private readonly IFixMessageParser _parser;
 
-    public FixParse(IFixMessageParser parser) 
+    public FixParse(IFixMessageParser parser)
     {
-       _parser = parser;   
+       _parser = parser;
     }
     // measure this method with Benchmark.NET library
     public ExecutionReport ParseMessage(string message) =>
         _parser.Parse(message);
-
 }

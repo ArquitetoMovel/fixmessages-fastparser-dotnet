@@ -1,0 +1,8 @@
+# bin folder
+FixFastParser/bin
+FixFastParser/obj
+
+# filtros não fontes
+*.dll
+*.pdb
+*.log
