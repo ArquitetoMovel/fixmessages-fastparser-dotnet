@@ -84,3 +84,16 @@
 /Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/obj/Release/net8.0/FixFastParser.genruntimeconfig.cache
 /Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/obj/Release/net8.0/ref/FixFastParser.dll
 /Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/FixMessage.txt
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/Microsoft.Extensions.Logging.Configuration.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/OpenTelemetry.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/OpenTelemetry.Api.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/OpenTelemetry.Exporter.Console.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/Google.Protobuf.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/Grpc.Core.Api.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/Grpc.Net.Client.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/Grpc.Net.Common.dll
+/Users/alexandre/Developer/fixmessages-fastparser-dotnet/FixFastParser/bin/Release/net8.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
