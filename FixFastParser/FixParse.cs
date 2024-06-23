@@ -1,13 +1,11 @@
-﻿namespace FixFastParser;
+﻿
+using FixParser;
 
-public class FixParse
+namespace FixFastParser;
+
+public class FixParse(IFixMessageParser parser)
 {
-    private readonly IFixMessageParser _parser;
-
-    public FixParse(IFixMessageParser parser)
-    {
-       _parser = parser;
-    }
+    private readonly IFixMessageParser _parser = parser;
     // measure this method with Benchmark.NET library
     public ExecutionReport ParseMessage(string message) =>
         _parser.Parse(message);

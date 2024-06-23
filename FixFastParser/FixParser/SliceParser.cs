@@ -1,4 +1,6 @@
-﻿namespace FixFastParser;
+﻿using FixFastParser;
+
+namespace FixParser;
 
 public class SliceParser : IFixMessageParser
 {
